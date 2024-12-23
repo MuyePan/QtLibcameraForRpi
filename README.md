@@ -55,7 +55,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     )
 ```
 
-## Add pkg config to **CMakeLists.txt**
+## Add pkg to **CMakeLists.txt**
 ```
 find_package(PkgConfig)
 pkg_check_modules(LIBCAMERA REQUIRED IMPORTED_TARGET libcamera)
