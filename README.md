@@ -1,14 +1,15 @@
 # Qt Demo Application on RPI with libcamera
 This page shows how to build the Qt Demo Application on RPI with libcamera. 
 
-Click the follow image to view this tutorial on Youtube.
+It is highly recommended to watch video tutorial as there is additional content in the video tutorial.
+Click the following image to view this tutorial on Youtube.
 
 ## Create an Qt Widgets Application
 ![image](https://github.com/user-attachments/assets/3d1fb799-b80b-451b-afd0-d1f6a776da18)
 
 ## Download the source code
 Download source code from https://github.com/raspberrypi/libcamera. 
-Only **src/apps/common** and **src/apps/qcam** are needed.
+Only **src/apps/common** and **src/apps/qcam** folders are needed.
 
 ## Copy **common** and **qcam** folders into the folder of newly created application
 Ignore dng_writer.h and dng_writer.cpp as we don't define HAVE_TIFF
@@ -77,3 +78,4 @@ target_compile_definitions(QCamTest PRIVATE QT_NO_KEYWORDS)
 ```
 
 ## Enjoy
+![image](https://github.com/user-attachments/assets/d8603a98-a0b4-4448-9aa4-d3149f28b4c3)
