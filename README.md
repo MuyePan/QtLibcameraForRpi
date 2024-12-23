@@ -10,6 +10,7 @@ Click the following image to view this tutorial on Youtube.
 
 ## Download the source code
 Download source code from https://github.com/raspberrypi/libcamera. 
+
 Only **src/apps/common** and **src/apps/qcam** folders are needed.
 
 ## Copy **common** and **qcam** folders into the folder of newly created application
