@@ -9,7 +9,45 @@ Click the follow image to view this tutorial on Youtube.
 
 ## Copy **common** and **qcam** folders into the folder of newly created application
 
-## Remove original files and add new files to the application
+```
+#set(PROJECT_SOURCES
+#        main.cpp
+#        mainwindow.cpp
+#        mainwindow.h
+#        mainwindow.ui
+#)
+
+if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    qt_add_executable(QCamTest
+        MANUAL_FINALIZATION
+        ${PROJECT_SOURCES}
+        qcam/cam_select_dialog.cpp
+        qcam/cam_select_dialog.h
+        qcam/format_converter.cpp
+        qcam/format_converter.h
+        qcam/main.cpp qcam/main_window.cpp
+        qcam/main_window.h qcam/meson.build
+        qcam/message_handler.cpp
+        qcam/message_handler.h
+        qcam/viewfinder.h
+        qcam/viewfinder_gl.cpp
+        qcam/viewfinder_gl.h
+        qcam/viewfinder_qt.cpp
+        qcam/viewfinder_qt.h
+        common/event_loop.cpp
+        common/event_loop.h
+        common/image.cpp
+        common/image.h
+        common/meson.build
+        common/options.cpp
+        common/options.h
+        common/ppm_writer.cpp
+        common/ppm_writer.h
+        common/stream_options.cpp
+        common/stream_options.h
+        qcam/assets/shader/shaders.qrc
+    )
+```
 
 ## Add pkg config to **CMakeLists.txt**
 ```
