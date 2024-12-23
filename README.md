@@ -2,6 +2,7 @@
 This page shows how to build the Qt Demo Application on RPI with libcamera. 
 
 It is highly recommended to watch video tutorial as there is additional content in the video tutorial.
+
 Click the following image to view this tutorial on Youtube.
 
 ## Create an Qt Widgets Application
