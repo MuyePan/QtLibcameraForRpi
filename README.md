@@ -1,4 +1,4 @@
-# Qt Demo Application on RPI with libcamera
+# Qt6 Demo Application on RPI with libcamera
 This page shows how to build the Qt6 Demo Application on RPI with libcamera. 
 
 It is highly recommended to watch video tutorial as there is additional content in the video tutorial.
