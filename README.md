@@ -1,4 +1,4 @@
-# Qt6 Demo Application Using libcamera on Raspberry Pi
+# Using Qt6 with libcamera on Raspberry Pi
 This page shows how to build the Qt6 Demo Application Using libcamera on Raspberry Pi. 
 
 It is highly recommended to watch video tutorial as there is additional content in the video tutorial.
