@@ -4,7 +4,7 @@ This page shows how to build the Qt6 Demo Application Using libcamera on Raspber
 It is highly recommended to watch video tutorial as there is additional content in the video tutorial.
 
 Click the following image to view this tutorial on Youtube.
-[![Youtube video link](https://i.ytimg.com/vi/QWz-4R4kMIo/hqdefault.jpg)](//youtu.be/gTd6dm9ONSk "Youtube Video")
+[![Youtube video link](https://i.ytimg.com/vi/gTd6dm9ONSk/hqdefault.jpg)](//youtu.be/gTd6dm9ONSk "Youtube Video")
 
 - Cross Compilation https://youtu.be/8kpHgNKPooc
 - Remote Debugging https://youtu.be/QWz-4R4kMIo
